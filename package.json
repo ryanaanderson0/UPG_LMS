@@ -1,0 +1,31 @@
+{
+  "name": "expresscrashcourse",
+  "version": "1.0.0",
+  "description": "Getting to know EXPRESS by following along express crash course youtube",
+  "main": "index.js",
+  "scripts": {
+    "test": "hello world",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanaanderson0/ExpressCrashCourse.git"
+  },
+  "keywords": [
+    "Express"
+  ],
+  "author": "Ryan Anderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanaanderson0/ExpressCrashCourse/issues"
+  },
+  "homepage": "https://github.com/ryanaanderson0/ExpressCrashCourse#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ui-huma": "file:vendor/ui-huma"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
